@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Workout Advisor</string>
+    <string name="legs">"    Legs"</string>
+    <string name="chest">"    Chest"</string>
+    <string name="shoulder">"    Shoulders"</string>
+    <string name="biceps">"    Biceps"</string>
+    <string name="abs">"    Abs"</string>
+    <string name="legs2">"    Legs"</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="editProfile">Edit Profile</string>
+
+</resources>

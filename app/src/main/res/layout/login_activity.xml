@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/upspace" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WorkOut"
+        android:textColor="#faffffff"
+        android:textSize="50dip"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_margin="@dimen/margins"
+        app:passwordToggleTint="@color/colorPrimaryDark"
+        android:textColorHint="#7effffff"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/username"
+            android:textColor="#d3ffffff"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:hint="   Email"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margins"
+        android:textColorHint="#7effffff"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimaryDark">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="   Password"
+            android:inputType="textPassword"
+            android:textColor="#d3ffffff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margins"
+        android:background="@color/colorPrimaryDark"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:id="@+id/loginbutton"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margins"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        android:id="@+id/resetbutton"
+        />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/registerpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d9ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margins"
+        android:text="No account yet? Create one"
+        android:clickable="true"
+        />
+    <TextView
+        android:id="@+id/skiplogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d9ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dip"
+        android:text="Skip Login >>"
+        android:clickable="true"
+        />
+</LinearLayout>
